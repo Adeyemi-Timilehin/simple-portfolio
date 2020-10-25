@@ -1,0 +1,124 @@
+@font-face{font-family:'Montserrat';src:url('fonts/Montserrat/Montserrat-Light.ttf');}
+@font-face{font-family:'Sacramento-Regular';src:url('fonts/Sacramento/Sacramento-Regular.ttf');}
+@font-face{font-family:'Merriweather';src:url('fonts/Merriweather/Merriweather-Regular.ttf');}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+text-align:center;
+  font-family:'Merriweather'; 
+    color:#40514E;
+}
+h1{
+    font-family:'Sacramento-Regular',cursive;
+    font-size:5.625rem;
+    color:#66BFBF;
+    margin:50px auto 0 auto ;
+}
+h2{
+font-family:'Montserrat',sans-serif;
+font-size:2.5rem;
+font-weight:normal;
+color:#66BFBF;
+padding-bottom:10px;
+}
+h3{
+    font-family:'Montserrat',sans-serif;
+    color:#11999E;
+font-size:1.5rem;
+padding-bottom:10px;
+}
+hr{
+    margin:auto;
+    width:4%;
+    border:6px dotted #EAF6F6;
+    border-bottom:none;
+    margin:50px auto;
+    
+}
+p{
+    font-size:0.8rem;
+    line-height:2;
+}
+.top-heading{
+     background-color:#EAF6F6;
+    padding:100px;
+  position:relative;  
+}
+.stress-profession{
+    text-decoration:underline;
+}
+.top-cloud{
+    position:absolute;
+    top:50px;
+    right:300px;
+}
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+ }
+.middle-container{
+margin:50px 0;
+}
+.bottom-container{
+    background-color:#66BFBF;
+    padding:50px 0 20px;
+    color:#EAF6F6;
+} 
+.bio{
+    width:40%;
+    text-align:justify;
+    margin:0 auto;
+    padding:30px 0;
+}
+.skill-row{
+    width:50%; 
+    margin:100px auto;
+    text-align:left;
+}
+.code-img{
+    width:25%;
+    float:left;
+    padding-right:30px;
+}
+.comp-img{
+    width:25%;
+     float:right; 
+     padding-left:30px;
+}
+.contact-me-info{
+    width:40%;
+     margin:15px auto 60px; 
+}
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+a{
+    margin-top:20px;
+    padding:20px;
+    text-decoration:none;
+    color:#11999E;
+      font-family:'Montserrat',sans-serif;   
+}
+a:hover{
+    color:#EAF6F6;
+}
+.footer-link-p{
+    padding:20px 0;
+    font-size:0.7rem;
+}
